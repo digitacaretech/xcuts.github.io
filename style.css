@@ -915,6 +915,10 @@ body {
   height: 476px;
 }
 
+.h-\[365px\]{
+  height: 365px;
+}
+
 .min-h-\[213px\]{
   min-height: 213px;
 }
@@ -1792,6 +1796,11 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.before\:content-normal::before{
+  content: var(--tw-content);
+  align-content: normal;
+}
+
 .before\:bg-inherit::before{
   content: var(--tw-content);
   background-color: inherit;
@@ -1881,6 +1890,11 @@ body {
   content: var(--tw-content);
   --tw-skew-y: 144deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.after\:content-normal::after{
+  content: var(--tw-content);
+  align-content: normal;
 }
 
 .after\:border-r-2::after{
